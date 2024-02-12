@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  width: 100vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: blanchedalmond;
+}
+
+.menu {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  background-color: white;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
+
+.navBar ul {
+  display: flex;
+
+  gap: 100px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+}
+
+.menu-burguer,
+#menu-burguer {
+  display: none;
+}

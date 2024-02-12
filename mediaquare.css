@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  .menu ul {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    height: calc(100vh - 80px);
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+    /* 
+    ANIMACION - MEJORAR
+    transition: all 1s ease;
+    transform: translateY(-200%); */
+  }
+
+  .menu-burguer {
+    display: block;
+  }
+
+  #menu-burguer:checked ~ .menu-list {
+    display: flex;
+    /* transform: translateY(0); */
+  }
+}
